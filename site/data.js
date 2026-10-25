@@ -1,0 +1,1 @@
+const hoods={"New York":["Williamsburg","Astoria","Chelsea","Upper West Side"],"New Jersey":["Hoboken","Downtown Jersey City","Weehawken"],"Connecticut":["West Hartford","Hartford's West End","Glastonbury"]};

@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Search | FIND Real Estate</title><link rel="stylesheet" href="styles.css"><script src="data.js"></script></head><body><div id="hdr"></div>
+
+<section class="pagehead"><div class="wrap"><h1>Find Properties</h1><p>Search homes and rentals across NY, NJ, CT, Philadelphia and Miami</p></div></section>
+<section class="s"><div class="wrap"><form class="sbar" onsubmit="return false"><input placeholder="City, neighborhood or address"><select><option>Buy</option><option>Rent</option><option>Sell</option></select><select><option>Any price</option><option>Under $500k</option><option>$500k–$1M</option><option>$1M+</option></select><button class="btn">Search</button></form><div class="grid g3" id="l"></div><p class="center" style="color:#5b6678;margin-top:24px">Sample listings for demonstration only.</p></div></section>
+<script>const N=["Williamsburg","Astoria","Chelsea","Upper West Side","Hoboken","Jersey City"];l.innerHTML=N.map((n,i)=>`<div class="card listing"><div class="ph v${i%3+2}"></div><div class="body"><span class="price">$${(450+i*130)*1000}</span><b>${n}</b><p>${i+1} bd · ${1+i%2} ba · ${700+i*140} sqft</p></div></div>`).join("")</script>
+<div id="ftr"></div><script src="site.js"></script></body></html>
